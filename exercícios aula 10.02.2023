@@ -1,0 +1,32 @@
+# 1 - cálculo de média de 4 notas => 7 aprovado
+# <7 >= 4 = Exame final <4 reprovado
+
+count = 0
+
+for x in range(1, 5):
+    n = float(input(f'Informe a {x}ª nota: '))
+    count += n
+
+media = count/4
+
+if media >= 7:
+    print('\nAprovado!')
+if media < 7 and media >= 4:
+    print('\nExame Final!')
+if media < 4:
+    print('\nReprovado!')
+
+
+
+# 2 - criar um programa para organizar um array(lista/tupla)
+# -> por ordem alfabética = NÂO PODE USAR O SORT SORTED e AFINS
+# NÂO PODE USAR FUNÇÂO PRONTA DO PYTHON
+
+print('Não consegui resolver o exercício 2!')
+
+
+
+# 3 - criar uma função que vai receber algumas cidades(5)
+# Organizar em ordem alfabética
+
+print('Não consegui resolver o exercício 3!')
